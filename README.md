@@ -1,18 +1,19 @@
 # Projet Bus CAN VMD
+
 ## Description
 Ce projet s'inscrit dans le cadre de la Licence Professionnelle CCSEE à l'Université Toulouse III - Paul Sabatier.  
-L'objectif est d'étudier et de mettre en œuvre le Bus CAN avec un système Véhicule Multiplexé Didactique (VMD).
+Il vise à étudier et à implémenter le Bus CAN dans un système Véhicule Multiplexé Didactique (VMD).  
 
-## Contenu
-- **État de l'art du Bus CAN.**
-- **Tâches pratiques :** Simulation et implémentation de scénarios avec Arduino et le CAN-BUS Shield.
-- **Documentation :** Rapport et résultats des expérimentations.
+## Objectifs
+- **Étudier les cartes CAN du VMD** : Cartes de commodo, LEDs, entrées TOR.
+- **Analyser les messages CAN** : Décoder les messages envoyés et reçus par les cartes du VMD.
+- **Réaliser une documentation complète** sur l’utilisation et le fonctionnement des cartes.
 
-## Structure du projet
-- **/Docs :** Documentation et bibliographie.
-- **/Code :** Scripts Arduino pour les TPs.
-- **/TP :** Résultats des expérimentations.
-- **/Images :** Photos des montages ou captures d’écran.
+## Structure
+- **/Docs** : Bibliographie, rapports, et documentation.
+- **/Cartes** : Informations détaillées sur les cartes (commodo, LEDs).
+- **/Messages_CAN** : Décodage et analyse des messages CAN.
+- **/Images** : Photos des montages et captures d’écran.
 
 ## Liens utiles
-- [Documentation officielle du Bus CAN](http://www.didalab-didactique.fr/site/materiel/FR-categorie-44-produit-267.html)
+- [Documentation VMD officielle](http://www.didalab-didactique.fr/site/materiel/FR-categorie-44-produit-267.html)
